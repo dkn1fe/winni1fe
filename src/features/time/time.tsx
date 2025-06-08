@@ -13,6 +13,7 @@ export const Time = () => {
         return () => clearInterval(interval)
     }, [])
 
+
     return (
         <div className="flex flex-col items-center text-xs gap-1 text-white">
             <p>{realTime.hour}:{realTime.minutes}</p>

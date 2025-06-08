@@ -8,7 +8,7 @@ export const getRealTime = () => {
     
     const year = date.getFullYear()
     const month = getZero(date.getMonth() + 1)
-    const day = getZero(date.getDay() + 1)
+    const day = getZero(date.getDate())
     const hour = getZero(date.getHours())
     const minutes = getZero(date.getMinutes())
 
